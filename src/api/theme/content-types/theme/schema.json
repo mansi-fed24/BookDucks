@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "themes",
+  "info": {
+    "singularName": "theme",
+    "pluralName": "themes",
+    "displayName": "theme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "themeName": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "christmas",
+        "halloween"
+      ],
+      "default": "default",
+      "required": true
+    },
+    "active": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
